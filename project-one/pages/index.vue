@@ -44,14 +44,14 @@ const styleClasses: Record<string, string> = {
                         </UFormGroup>
                         
                         <div class="justify-center">
-                            <UButton 
-                            class="mt-3 bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-full justify-center w-[100%]">
-                                Entrar
-                            </UButton>
-                            <UButton 
-                            class="mt-3 bg-pink-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-full justify-center w-[100%]">
-                                Registrar-se
-                            </UButton>
+                            <UButton label="Entrar"
+                                class="mt-3 bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-full justify-center w-[100%]"
+                            />
+                        
+                            <UButton label="Registrar-se"
+                                class="mt-3 bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-6 rounded-full justify-center w-[100%]"
+                            />
+                              
                         </div>
                     </div>
                 </div>
